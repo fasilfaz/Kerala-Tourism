@@ -142,6 +142,24 @@ nav.navbar{
     font-size: 16px;
     color: #333;
 }
+footer .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position:relative;
+    bottom: 0;
+    left: 0;
+    background: #333;
+}
+.footer-content h5{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer-content h5 a{
+    color: #fff;
+}
 @media screen and (max-width:992px){
     .navbar .buttons{
         display: block;
