@@ -6,7 +6,7 @@
     <title>Kerala Tourism</title>
     <link rel="shortcut icon" href="https://www.keralatourism.org/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="logincss/style.css">
+    <link rel="stylesheet" href="./login/style.css">
     <link rel="stylesheet" href="./contact form/contact.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
@@ -2429,8 +2429,8 @@
 
 <!-- thiruvananthapuram end -->
 
-<section class="containerr forms" id="log">
-    <div class="form login" >
+<section class="main forms" id="log">
+    <div class="form login">
         <div class="form-content">
             <header>Login</header>
             <form action="#">
@@ -2475,11 +2475,9 @@
 
     </div>
 
-    
-
     <!-- Signup Form -->
 
-    <div class="form signup" >
+    <div class="form signup">
         <div class="form-content">
             <header>Signup</header>
             <form action="#">
@@ -2532,11 +2530,11 @@
 
 
 <div class="contact" id="contactus">
-    <form action="">
+    <form class="contact-form">
         <h3>CONTACT US</h3>
-        <input type="text" id="name" placeholder="Your Name" required>
-        <input type="email" id="email" placeholder="Email id" required>
-        <input type="text" id="phone" placeholder="Phone no." required>
+        <input  class="form-input" type="text" id="name" placeholder="Your Name" required>
+        <input  class="form-input" type="email" id="email" placeholder="Email id" required>
+        <input class="form-input" type="text" id="phone" placeholder="Phone no." required>
         <textarea id="message" rows="4" placeholder="How can we help you?"></textarea> 
         <button type="submit">Send</button>
     </form>
