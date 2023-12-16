@@ -1,6 +1,6 @@
 const buttons = document.querySelector('.buttons');
 const navList = document.querySelector('.navbar ul.menu-list');
-const forms = document.querySelector(".forms");
+
 
 
 buttons.addEventListener('click', () => {
@@ -25,14 +25,16 @@ pwShowHide.forEach(eyeIcon => {
             }
             password.type = "password";
             eyeIcon.classList.replace("bx-show", "bx-hide");
-        })
+        });
         
-    })
-})      
+    });
+});
+
+const forms = document.querySelector(".forms");
 
 links.forEach(link => {
     link.addEventListener("click", e => {
        e.preventDefault(); //preventing form submit
        forms.classList.toggle("show-signup");
-    })
-})
+    });
+});
