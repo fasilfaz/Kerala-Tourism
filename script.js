@@ -10,8 +10,8 @@ buttons.addEventListener('click', () => {
 
 
 
-pwShowHide = document.querySelectorAll(".eye-icon"),
-links = document.querySelectorAll(".link");
+const pwShowHide = document.querySelectorAll(".eye-icon");
+const links = document.querySelectorAll(".link");
 
 pwShowHide.forEach(eyeIcon => {
     eyeIcon.addEventListener("click", () => {
